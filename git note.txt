@@ -1,0 +1,63 @@
+Configurar usuario
+$ git config --global user.name "fonsecajamile"
+
+Configurar e-mail
+git config --global user.email "jateltelematica@gmail.com"
+
+Iniciar repositorio
+$ git init
+
+Status
+$ git status
+
+enviar informações para o GIT:
+$ git push origin master
+
+Adcionar arquivo
+$ git add testeGit.html
+
+Adcionar tudo que tem na pasta atual
+$ git add .
+$ git commit --m "Mensagem"
+
+Adcionar tudo que tem na pasta atual - em apenas um comando
+$ git commit --am "Mensagem"
+
+
+Comitar arquivo com comentario
+$ git commit -m "Setup multiple roles for netlify-cms git gateway"
+
+Ver a diferenca
+$ git diff
+
+Mostra os ultimos commits
+$ git log
+
+Mostra tudo de log, com informações mais claras
+$ git shortlong
+
+Limpar tela
+$ clear
+
+Verificar detalhes do commit
+$ git show valor-hash (que é o codigo do comit dado no git log)
+
+Reverter mudança que não queira no código, após ter commitado
+-- Descomitar arquivo
+
+$ git log (para pegar o valor-hash do commit)
+$ git reset valor-hash (que vai voltar o que estava até aquela linha, tirando o commit)
+
+- Descartar todas as mudancas
+$ git checkout nomedoarquivo.txt
+
+Clonar repositorio na maquina
+$ git clone link do perojeto 
+
+Conflito
+Quando o codigo da maquina está desatualizado..
+O ideal é primiero atualizar git pull($ git push origin master) e depois um git push
+
+------------------ VER
+Criação de brache com base em brache especifica
+para trabalhar com repositorio
