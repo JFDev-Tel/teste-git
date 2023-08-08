@@ -16,6 +16,14 @@ $ git push origin master
 Adcionar arquivo
 $ git add testeGit.html
 
+Adcionar tudo que tem na pasta atual
+$ git add .
+$ git commit --m "Mensagem"
+
+Adcionar tudo que tem na pasta atual - em apenas um comando
+$ git commit --am "Mensagem"
+
+
 Comitar arquivo com comentario
 $ git commit -m "Setup multiple roles for netlify-cms git gateway"
 
